@@ -4,22 +4,22 @@ cask "lytecache" do
 
   on_macos do
     on_intel do
-      sha256 "3ef6293f7e9d0fc3387c0f0f08259353bd93fbe99c3e1897690ae4c828d75ca1"
+      sha256 "ccaeee623735ecce3babc1ece0e561cafa7a46527dca193efca9a4837c5b433f"
       url "https://github.com/lytecache/lytecache-cli/releases/download/v#{version}/lytecache_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "513ecb8825a2e6bc0101383fddbbcf78a2026f5b90ccf3e56919fd6eef9c538e"
+      sha256 "4601d287f1d3f8dcfb614a3658a0c9bf5fb019bae704b84db69f4bb5f29daeeb"
       url "https://github.com/lytecache/lytecache-cli/releases/download/v#{version}/lytecache_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f8ed8fcb8b77485b2a350b1bbddd60c2eb04685a8512b028cb3589b097c818c4"
+      sha256 "71f7129a8cbd1ca093da3bdfbfe2bf09b2954423421aa9434ce6232f9fb8350b"
       url "https://github.com/lytecache/lytecache-cli/releases/download/v#{version}/lytecache_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "810fce6d35f9fbc04743d7052bd1a42d721f5180dba33aa14b526d6d893b5b11"
+      sha256 "07fe5258e635154119508c9314f2a474bf9b31f0470ff5050fb2fac30ea4bf52"
       url "https://github.com/lytecache/lytecache-cli/releases/download/v#{version}/lytecache_#{version}_linux_arm64.tar.gz"
     end
   end
